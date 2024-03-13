@@ -1,0 +1,291 @@
+.comments__container {
+    margin-bottom: 10%;
+}
+
+.details__container {
+    /* margin-left: 21%; */
+}
+
+.listing__content {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.listing__content img {
+    box-shadow: 0 0 5px 5px rgb(156, 156, 156);
+    height: 850px;
+    width: 1450px;
+}
+
+.detail__username {
+    margin-top: 2%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.comment_submission_box {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.comments__container {
+    margin-left: 31%;
+    display: flex;
+    width: 544px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.comment__div {
+    font-family: sans-serif;
+    border: 1px grey solid;
+    height: 60%;
+    width: 545px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+    max-width: 545px;
+    inline-size: 525px;
+}
+
+.the__comment {
+    inline-size: 500px;
+    overflow-wrap: break-word;
+}
+
+.comments__heading {
+    margin-left: 31%;
+    font-family: sans-serif;
+}
+
+.detail__titleAndEditBtn h2 {
+    font-family: sans-serif;
+}
+
+.detail__titleAndEditBtn {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 43.5%;
+}
+
+.delete__btn {
+    border: none;
+    background: none;
+    background-color: none;
+    transform: scale(1.5);
+    color: rgb(206, 0, 0);
+    margin-left: 28.5vw;
+}
+
+.edit__btn {
+    border: none;
+    background: none;
+    background-color: none;
+    color: rgb(65, 65, 65);
+    transform: scale(1.5);
+    margin-left: 1%;
+    margin-right: 10%;
+}
+
+.edit__btn:hover {
+    cursor: pointer;
+    color: black;
+    transform: scale(1.63);
+}
+
+.delete__btn:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.63);
+}
+
+.description__area {
+    font-family: sans-serif;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-left: 37%;
+    margin-right: 35%;
+}
+
+.edit__listing input {
+    background: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(97, 97, 97, 0.507);
+    margin-top: 1%;
+    padding: 7px;
+    width: 11%;
+}
+
+.edit__listing input:focus {
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+
+.edit__submitBtn {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+    background-color: none;
+    margin-left: 0.5%;
+}
+
+.edit__submitBtn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.07);
+}
+
+.comment__errors {
+    margin-bottom: 2%;
+}
+
+.edit__comment {
+    margin-left: 4.3%;
+}
+
+.editComment__submit {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+    background-color: none;
+    margin-left: -20%;
+    margin-right: 1%;
+}
+
+.editComment__submit:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.07);
+}
+
+.cancelComment__submit:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(255, 31, 31);
+    transform: scale(1.07);
+}
+
+.cancelComment__submit {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+    background-color: none;
+}
+
+
+.editComment__btn {
+    border: none;
+    background: none;
+    background-color: none;
+    color: rgb(65, 65, 65);
+    transform: scale(1.25);
+    margin-right: 1%;
+    margin-left: 89%;
+}
+
+.editComment__btn:hover {
+    cursor: pointer;
+    color: black;
+    transform: scale(1.33);
+}
+
+.deleteComment__btn {
+    border: none;
+    background: none;
+    background-color: none;
+    transform: scale(1.25);
+    color: rgb(206, 0, 0);
+}
+
+.deleteComment__btn:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.33);
+}
+
+.detail__titleAndEditBtn p {
+    font-size: 25pt;
+    font-family: 'Rochester', cursive;
+    font-style: italic;
+}
+
+.clearComment__btn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(255, 31, 31);
+    transform: scale(1.07);
+}
+
+.clearComment__btn {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+    background-color: none;
+}
+
+.submitComment__btn {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+    background-color: none;
+    /* margin-left: -29%; */
+    margin-right: 1%;
+}
+
+.submitComment__btn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.07);
+}
+
+.commentSubmission__btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.note__header {
+    font-size: 13pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description__p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.editTitle__errors {
+    margin-top: 0.5%;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 2000px) {
+    .edit__comment {
+        margin-left: auto;
+    }
+
+    .editComment__submit {
+        border: 1px solid grey;
+        border-radius: 10px;
+        background: none;
+        background-color: none;
+        margin-left: 77%;
+        margin-right: 1%;
+    }
+}
